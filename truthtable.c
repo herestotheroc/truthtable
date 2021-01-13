@@ -77,7 +77,7 @@ int binLen(int i) { // length of base 10 number if it were to be in base 2.
 }
 
 
-void toBin(int i, char* ans, int len) { // change number from base 10 to base 2. fills the rest of the string with zeros so the other part works.
+void toBin(int i, char* ans, int len) { // change number from base 10 to base 2. fills the rest of the string with zeros so the other part works. yoinked this algorith from some website but i cant remember which one q.q
    int d = i;
    int count = 0;
    int p = largestPowerOfTwo(i);
