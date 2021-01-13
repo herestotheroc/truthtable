@@ -18,7 +18,6 @@
 #include "truthtable.h"
 #include "parser.c"
 
- //these might be important
 
 bool alphaToBool(char a) { // self explanatory. 
    if(a == 'T') { return true; }
